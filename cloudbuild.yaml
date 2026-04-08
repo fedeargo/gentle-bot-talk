@@ -6,9 +6,9 @@ steps:
     - '-c'
     - |
       echo "us-east1" > region.txt
-      echo "agente-experto-IA-aseguradoras" > repo_artifact.txt
-      echo "agente-experto-IA-aseguradoras" > image_repo.txt
-      echo "agente-experto-IA-aseguradoras" > service_name.txt
+      echo "agente-experto-ia-aseguradoras" > repo_artifact.txt
+      echo "agente-experto-ia-aseguradoras" > image_repo.txt
+      echo "agente-experto-ia-aseguradoras" > service_name.txt
       echo "$(cat region.txt)-docker.pkg.dev/$PROJECT_ID/$(cat repo_artifact.txt)/$(cat image_repo.txt):latest" > image_name.txt
 
 
